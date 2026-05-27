@@ -1,0 +1,20 @@
+# Куки и токены — НИКОГДА не заливать
+.hh_cookie
+
+# Данные рассылки (личные данные компаний)
+contacts.json
+contacts.csv
+send_log.json
+followup_log.json
+
+# Промежуточные данные
+companies.json
+companies.csv
+enriched.json
+enriched.csv
+
+# Системное
+.DS_Store
+.claude/
+node_modules/
+*.log
