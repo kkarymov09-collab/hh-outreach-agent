@@ -1,20 +1,33 @@
 # Куки и токены — НИКОГДА не заливать
 .hh_cookie
+.ig_cookie
+.ig_session.json
 
-# Данные рассылки (личные данные компаний)
+# HH.kz — данные рассылки
 contacts.json
 contacts.csv
 send_log.json
 followup_log.json
 
-# Промежуточные данные
+# HH.kz — промежуточные данные
 companies.json
 companies.csv
 enriched.json
 enriched.csv
 
+# Instagram — данные аккаунтов и рассылки
+ig_accounts.json
+ig_enriched.json
+ig_enriched.csv
+ig_contacts.json
+ig_contacts.csv
+ig_send_log.json
+ig_followup_log.json
+
 # Системное
 .DS_Store
 .claude/
 node_modules/
+__pycache__/
 *.log
+*.pyc
