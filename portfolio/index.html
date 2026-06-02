@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FTT — Лендинги, AI-боты и креативы, которые продают</title>
-<meta name="description" content="Конверсионные лендинги, AI-боты продаж 24/7 и сильные креативы для бизнеса. Дизайн уровня агентства — без цен агентства. Астана · Казахстан.">
+<title>FTT — Сайты и AI-боты для клиник и студий красоты · Астана</title>
+<meta name="description" content="Конверсионные лендинги и AI-боты записи для клиник, косметологических студий и медцентров. Концепт бесплатно, результат за 5 дней. Не нравится — не платишь. Астана · Казахстан.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&family=Onest:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -133,9 +133,12 @@
   }
   .btn-primary { background: var(--accent); color: #08080a; }
   .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 14px 40px var(--accent-glow); }
+  .btn-hero { font-size: 18px; padding: 20px 38px; box-shadow: 0 0 40px var(--accent-glow); }
+  .btn-hero:hover { transform: translateY(-4px); box-shadow: 0 20px 56px var(--accent-glow); }
   .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
   .btn-ghost:hover { border-color: var(--accent); transform: translateY(-3px); color: var(--accent); }
   .btn svg { width: 19px; height: 19px; }
+  .hero-free span { color: var(--accent); }
 
   .hero-stats { display: flex; gap: 44px; margin-top: 72px; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.8s 0.9s var(--ease) forwards; }
   .scroll-hint { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; color: var(--dim); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0; animation: fadeUp 0.8s 1.2s var(--ease) forwards; cursor: pointer; }
@@ -318,15 +321,15 @@
 <!-- ════ HERO ════ -->
 <header class="hero" id="top">
   <div class="container">
-    <div class="hero-badge"><span class="live"></span>Беру 2–3 проекта в месяц · Астана, работаю по всему Казахстану</div>
+    <div class="hero-badge"><span class="live"></span>Принимаю проекты · Клиники, студии красоты, медцентры · Астана</div>
     <h1>
-      <span class="line">Лендинги, которые</span>
-      <span class="line"><em>приносят клиентов.</em></span>
-      <span class="line">AI-боты, чтобы их не терять.</span>
+      <span class="line">Сайт + AI-бот для</span>
+      <span class="line"><em>клиники за 5 дней.</em></span>
+      <span class="line">Не нравится — не платишь.</span>
     </h1>
-    <p class="hero-sub">Делаю не «красивые сайты», а рост-системы для бизнеса: конверсионный лендинг + AI-бот продаж 24/7 + сильные креативы. Дизайн уровня агентства — без цен агентства.</p>
+    <p class="hero-sub">Делаю конверсионные лендинги и AI-ботов записи для клиник, косметологических студий и медцентров. Концепт показываю бесплатно, до оплаты — вы видите результат прежде чем вложить деньги.</p>
     <div class="hero-actions">
-      <a href="#contact" class="btn btn-primary">
+      <a href="#contact" class="btn btn-primary btn-hero">
         Получить бесплатный концепт
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </a>
@@ -337,9 +340,9 @@
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
     </a>
     <div class="hero-stats">
-      <div class="hero-stat"><div class="num" data-count="40" data-suffix="+"><span>0</span></div><div class="lbl">проектов и креативов</div></div>
-      <div class="hero-stat"><div class="num" data-count="3" data-suffix="–5"><span>0</span></div><div class="lbl">дней на проект</div></div>
-      <div class="hero-stat"><div class="num"><span>24/7</span></div><div class="lbl">работает AI-бот</div></div>
+      <div class="hero-stat"><div class="num" data-count="5" data-suffix=" дней"><span>0</span></div><div class="lbl">готов лендинг</div></div>
+      <div class="hero-stat"><div class="num hero-free"><span>0₸</span></div><div class="lbl">за концепт до оплаты</div></div>
+      <div class="hero-stat"><div class="num"><span>24/7</span></div><div class="lbl">работает AI-бот записи</div></div>
     </div>
   </div>
 </header>
@@ -356,37 +359,37 @@
 <section id="services">
   <div class="container">
     <div class="reveal"><div class="eyebrow">Что я делаю</div></div>
-    <h2 class="reveal">Четыре инструмента. <em>Одна цель</em> — больше заявок.</h2>
-    <p class="section-lead reveal">Можно взять что-то одно, можно — всё под ключ. Чаще всего собирают связку «лендинг + бот + креативы»: она и приводит клиента, и не даёт ему потеряться.</p>
+    <h2 class="reveal">Три инструмента. <em>Одна цель</em> — больше записей.</h2>
+    <p class="section-lead reveal">Клиники и студии красоты чаще всего теряют клиентов не из-за плохого сервиса — а из-за того, что нет нормального сайта или администратор не успевает ответить. Это решаемо.</p>
 
     <div class="services-grid">
       <div class="service-card tilt reveal">
         <div class="service-icon">🌐</div>
-        <h3>Конверсионные лендинги</h3>
-        <p>Не просто красиво — продающая структура, психология решения, сильный копирайтинг. Сайт, который превращает трафик в заявки.</p>
+        <h3>Лендинг для клиники / студии</h3>
+        <p>Продающая структура под медицинскую нишу: услуги, цены, фото до/после, врачи, онлайн-запись. Гость открывает — и сразу понимает, почему именно вы.</p>
         <div class="service-price">от 250 000 ₸ · 3–5 дней</div>
         <div class="service-tags"><span>UX/UI</span><span>Копирайтинг</span><span>Адаптив</span><span>SEO-база</span></div>
       </div>
       <div class="service-card tilt reveal d1">
         <div class="service-icon">🤖</div>
-        <h3>AI-боты продаж и записи</h3>
-        <p>Бот отвечает, консультирует, продаёт и записывает 24/7 в Telegram, WhatsApp и Instagram. Ноль потерянных заявок и «висяков» в директе.</p>
+        <h3>AI-бот записи 24/7</h3>
+        <p>Бот-администратор отвечает, консультирует по ценам и записывает клиентов ночью, в выходные и когда все заняты. Ноль потерянных заявок из директа и мессенджеров.</p>
         <div class="service-price">от 150 000 ₸ · 2–4 дня</div>
         <div class="service-tags"><span>Telegram</span><span>WhatsApp</span><span>Instagram</span><span>CRM</span></div>
       </div>
       <div class="service-card tilt reveal">
-        <div class="service-icon">🎨</div>
-        <h3>Креативы и постеры</h3>
-        <p>Баннеры, обложки, посты и сторис, которые останавливают палец. Единый фирменный визуал для соцсетей и рекламы.</p>
-        <div class="service-price">от 15 000 ₸ · 1–2 дня</div>
-        <div class="service-tags"><span>Посты</span><span>Сторис</span><span>Reels-обложки</span></div>
+        <div class="service-icon">✨</div>
+        <h3>Связка: сайт + бот</h3>
+        <p>Лендинг приводит клиента из рекламы и поиска, бот подхватывает и записывает 24/7. Две части одной машины — работают вместе и дешевле, чем по отдельности.</p>
+        <div class="service-price">от 380 000 ₸ · 5–7 дней</div>
+        <div class="service-tags"><span>Под ключ</span><span>Настройка</span><span>Запуск</span></div>
       </div>
       <div class="service-card tilt reveal d1">
         <div class="service-icon">⚡</div>
-        <h3>Автоматизация процессов</h3>
-        <p>Связываю заявки, CRM, рассылки и AI в одну систему через n8n / make. Рутина уходит на автопилот, команда занимается продажами.</p>
+        <h3>Автоматизация и интеграции</h3>
+        <p>Связываю сайт, бота, CRM и рассылки в единую систему через n8n / make. Напоминания о записи, реактивация ушедших клиентов, аналитика — всё автоматически.</p>
         <div class="service-price">от 100 000 ₸ · по задаче</div>
-        <div class="service-tags"><span>n8n</span><span>make</span><span>Интеграции</span></div>
+        <div class="service-tags"><span>n8n</span><span>make</span><span>CRM</span><span>Рассылки</span></div>
       </div>
     </div>
   </div>
@@ -504,12 +507,12 @@
 <section id="why">
   <div class="container">
     <div class="reveal"><div class="eyebrow">Почему я</div></div>
-    <h2 class="reveal">Дизайн уровня агентства — <em>без цен агентства</em>.</h2>
+    <h2 class="reveal">Видите результат <em>до оплаты.</em> Риск — мой.</h2>
 
     <div class="why-grid">
-      <div class="why-card reveal"><div class="why-emoji">⚡</div><h3>Быстро</h3><p>Большинство проектов — за 3–5 дней. Использую AI-инструменты, чтобы не терять недели, но финал делаю с пониманием эстетики.</p></div>
-      <div class="why-card reveal d1"><div class="why-emoji">📈</div><h3>На результат</h3><p>Каждый блок продаёт. Продающая структура и копирайтинг важнее «просто картинки» — сайт должен приносить заявки.</p></div>
-      <div class="why-card reveal d2"><div class="why-emoji">🤝</div><h3>Напрямую</h3><p>Вы общаетесь со мной, а не с менеджером. Прямой WhatsApp, ответ в течение часа, полная вовлечённость в проект.</p></div>
+      <div class="why-card reveal"><div class="why-emoji">🎁</div><h3>Концепт бесплатно</h3><p>Показываю дизайн-концепт вашего проекта до договора и оплаты. Нравится — идём дальше. Нет — ничего не должны.</p></div>
+      <div class="why-card reveal d1"><div class="why-emoji">⚡</div><h3>5 дней — не обещание</h3><p>Большинство лендингов сдаю за 3–5 дней. Обозначаю дедлайн на старте и соблюдаю его — без «чуть ещё подождите».</p></div>
+      <div class="why-card reveal d2"><div class="why-emoji">🤝</div><h3>Прямой контакт</h3><p>Общаетесь со мной, а не с менеджером-посредником. WhatsApp, ответ в течение часа, я веду проект от брифа до публикации.</p></div>
     </div>
   </div>
 </section>
@@ -523,42 +526,45 @@
 
     <div class="pricing-grid">
       <div class="price-card reveal">
-        <div class="price-name">Креатив</div>
-        <div class="price-desc">Визуал для соцсетей и рекламы</div>
-        <div class="price-val">от 15 000 <span>₸</span></div>
-        <ul class="price-list">
-          <li>Посты, сторис, обложки</li>
-          <li>В стиле вашего бренда</li>
-          <li>Исходники в подарок</li>
-          <li>Срок 1–2 дня</li>
-        </ul>
-        <a href="#contact" class="btn">Выбрать</a>
-      </div>
-      <div class="price-card popular reveal d1">
-        <div class="price-name">Рост-система</div>
-        <div class="price-desc">Лендинг + AI-бот + пакет креативов</div>
-        <div class="price-val">от 450 000 <span>₸</span></div>
-        <ul class="price-list">
-          <li>Конверсионный лендинг под ключ</li>
-          <li>AI-бот продаж 24/7</li>
-          <li>10 креативов для запуска</li>
-          <li>Настройка и публикация</li>
-          <li>2 недели поддержки</li>
-        </ul>
-        <a href="#contact" class="btn">Выбрать</a>
-      </div>
-      <div class="price-card reveal d2">
         <div class="price-name">Лендинг</div>
-        <div class="price-desc">Продающий одностраничник</div>
+        <div class="price-desc">Продающий сайт для клиники или студии</div>
         <div class="price-val">от 250 000 <span>₸</span></div>
         <ul class="price-list">
-          <li>Индивидуальный дизайн</li>
+          <li>Индивидуальный дизайн под бренд</li>
           <li>Продающая структура + тексты</li>
+          <li>Блок услуг, цен и онлайн-записи</li>
           <li>Адаптив под все экраны</li>
-          <li>Базовое SEO + аналитика</li>
           <li>Срок 3–5 дней</li>
+          <li>Концепт до оплаты — бесплатно</li>
         </ul>
-        <a href="#contact" class="btn">Выбрать</a>
+        <a href="#contact" class="btn btn-primary">Получить концепт</a>
+      </div>
+      <div class="price-card popular reveal d1">
+        <div class="price-name">Лендинг + AI-бот</div>
+        <div class="price-desc">Сайт и бот записи под ключ — самый популярный</div>
+        <div class="price-val">от 380 000 <span>₸</span></div>
+        <ul class="price-list">
+          <li>Конверсионный лендинг под ключ</li>
+          <li>AI-бот записи в Telegram / WhatsApp</li>
+          <li>Отвечает, консультирует и пишет в CRM 24/7</li>
+          <li>Ноль потерянных заявок из директа</li>
+          <li>Настройка и публикация включены</li>
+          <li>2 недели поддержки после запуска</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Получить концепт</a>
+      </div>
+      <div class="price-card reveal d2">
+        <div class="price-name">AI-бот записи</div>
+        <div class="price-desc">Только бот — если сайт уже есть</div>
+        <div class="price-val">от 150 000 <span>₸</span></div>
+        <ul class="price-list">
+          <li>Бот-администратор в Telegram / WhatsApp</li>
+          <li>Запись клиентов без участия персонала</li>
+          <li>Ответы на FAQ о ценах и услугах</li>
+          <li>Интеграция с вашим расписанием</li>
+          <li>Срок 2–4 дня</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Получить концепт</a>
       </div>
     </div>
   </div>
@@ -569,8 +575,8 @@
   <div class="container narrow">
     <div class="cta-box reveal">
       <div class="eyebrow" style="justify-content:center;">Следующий шаг</div>
-      <h2>Покажу концепт вашего проекта <em>бесплатно</em></h2>
-      <p class="section-lead">Скиньте, что у вас есть сейчас (профиль, старый сайт или просто идею) — за вечер набросаю, как это может выглядеть. Без обязательств.</p>
+      <h2>Покажу концепт вашего сайта <em>бесплатно</em> — за 24 часа</h2>
+      <p class="section-lead">Скиньте ваш профиль в Instagram или старый сайт — за вечер набросаю, как это может выглядеть в новом дизайне. Не понравится — ничего не должны. Просто посмотрите.</p>
       <div class="cta-actions">
         <a href="https://wa.me/qr/6KB5K3H2FNM5F1" target="_blank" rel="noopener" class="btn btn-primary">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -599,7 +605,7 @@
         <a href="https://t.me/alikkhan_k" target="_blank" rel="noopener">Telegram</a>
       </div>
     </div>
-    <p class="footer-copy">© 2026 FTT — Future Technology Team · Лендинги, AI-боты и креативы · Астана, Казахстан</p>
+    <p class="footer-copy">© 2026 FTT — Future Technology Team · Лендинги и AI-боты для клиник и студий красоты · Астана, Казахстан</p>
   </div>
 </footer>
 
